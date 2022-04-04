@@ -1,7 +1,5 @@
 # Welcome to Snake game
 
-## [Example Website](https://password-generator-4c93d9.netlify.app/)
-
 
 ## Introduction
 
