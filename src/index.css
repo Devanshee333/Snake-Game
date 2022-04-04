@@ -1,0 +1,40 @@
+body {
+  background-color: #98ecb9;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+}
+
+.game-area {
+    position: relative;
+    margin: 50px auto;
+    width: 450px;
+    height: 450px;
+    background-color: #48f342;
+    border: 2px solid rgba(32, 21, 187, 0.733);
+  }
+  
+  .snake-dot {
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background-color: rgba(32, 21, 187, 0.733);
+    border: 1px solid #fff;
+    z-index: 2;
+  }
+  
+  .snake-food {
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background: red;
+    border: 1px solid #fff;
+    z-index: 1;
+  }
